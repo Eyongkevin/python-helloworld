@@ -2,9 +2,9 @@ name: build-and-push-image
 
 on:
   push:
-    branches: master
+    branches: [ main ]
   pull_request:
-    branches: master
+    branches: [ main ]
 jobs:
   multi:
     runs-on: ubuntu-latest
